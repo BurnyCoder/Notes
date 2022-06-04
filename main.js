@@ -26,7 +26,7 @@ window.addEventListener('load', () => {
 
 		const note_actions_el = document.createElement('div');
 		note_actions_el.classList.add('actions');
-		
+
 		const note_edit_el = document.createElement('button');
 		note_edit_el.classList.add('edit');
 		note_edit_el.innerText = 'Edit';
